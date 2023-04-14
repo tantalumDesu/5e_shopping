@@ -1,0 +1,505 @@
+item,rarity,type,price
+Backpack (empty),C,Adventuring Gear,200
+Bedroll,C,Adventuring Gear,10
+Blanket (winter),C,Adventuring Gear,50
+Block and Tackle,C,Adventuring Gear,500
+Caltrops,U,Adventuring Gear,100
+Case (map or scroll),U,Adventuring Gear,100
+Cooking Stone,C,Adventuring Gear,200
+Fishhook,C,Adventuring Gear,10
+Fishing Net (25 sq ft),C,Adventuring Gear,400
+Flask (empty),C,Adventuring Gear,3
+Flint and Steel,C,Adventuring Gear,100
+Grappling Hook,R,Adventuring Gear,100
+Hammer,C,Adventuring Gear,50
+Kettle,C,Adventuring Gear,50
+Ladder (10 ft),C,Adventuring Gear,5
+Lantern (Bullseye),U,Adventuring Gear,1200
+Lantern (Hooded),U,Adventuring Gear,700
+Manacles,U,Adventuring Gear,1500
+Manacles (masterwork),R,Adventuring Gear,5000
+Oil (1 pint flask),U,Adventuring Gear,10
+Piton,U,Adventuring Gear,10
+Pole (10 ft),C,Adventuring Gear,20
+"Pouch, belt (empty)",C,Adventuring Gear,100
+"Ram, portable",E,Adventuring Gear,1000
+"Rations, trail (per day)",C,Adventuring Gear,50
+Rope Bed,C,Adventuring Gear,30
+"Rope, hemp (50 ft)",C,Adventuring Gear,100
+Sack (empty),C,Adventuring Gear,10
+Skillet,C,Adventuring Gear,200
+Sledge,C,Adventuring Gear,100
+Smelling Salts (flask),C,Adventuring Gear,200
+"Sponge, natural (3”)",U,Adventuring Gear,2
+"Sponge, natural (5”)",U,Adventuring Gear,4
+"Sponge, natural (8”)",U,Adventuring Gear,10
+Tent,C,Adventuring Gear,1000
+Torch,C,Adventuring Gear,1
+Waterskin,C,Adventuring Gear,100
+Whetstone,C,Adventuring Gear,2
+Animal (diminutive) Cage,R,Animals & Related Gear,30
+Animal (medium) Cage,U,Animals & Related Gear,5000
+Animal (small) Cage,U,Animals & Related Gear,1000
+Animal (tiny) Cage,U,Animals & Related Gear,100
+"Bird, pet, common",C,Animals & Related Gear,2
+"Bird, pet, fancy",R,Animals & Related Gear,20
+"Bird, pet, rare",E,Animals & Related Gear,500
+Bit & Bridle,C,Animals & Related Gear,200
+Bullfrog (pair),C,Animals & Related Gear,1
+Cat,C,Animals & Related Gear,1
+"Dog, guard",U,Animals & Related Gear,2500
+"Dog, riding",R,Animals & Related Gear,15000
+Donkey or Mule,C,Animals & Related Gear,800
+Duck,C,Animals & Related Gear,3
+Feed (per day),C,Animals & Related Gear,5
+Ferret,R,Animals & Related Gear,30
+"Fish, pet (6)",U,Animals & Related Gear,1
+Gerbil (pair),C,Animals & Related Gear,1
+Goose,U,Animals & Related Gear,2
+Guinea Pig,C,Animals & Related Gear,1
+Hamster (mated pair),U,Animals & Related Gear,1
+"Horse, heavy",C,Animals & Related Gear,20000
+"Horse, light",C,Animals & Related Gear,7500
+"Lizard, pet, fancy",E,Animals & Related Gear,30
+"Mice, fancy (pair)",R,Animals & Related Gear,1
+Monkey,E,Animals & Related Gear,500
+Ox,C,Animals & Related Gear,2000
+"Pet Collar, common",C,Animals & Related Gear,5
+"Pet Collar, fancy",U,Animals & Related Gear,30
+Pet Leash,C,Animals & Related Gear,10
+Pony,C,Animals & Related Gear,3000
+"Rats, albino (pair)",R,Animals & Related Gear,2
+"Rats, common (pair)",C,Animals & Related Gear,1
+Saddle (Military),U,Animals & Related Gear,2000
+Saddle (Pack),C,Animals & Related Gear,500
+Saddle (Riding),C,Animals & Related Gear,1000
+"Saddle, Exotic (Military)",E,Animals & Related Gear,6000
+"Saddle, Exotic (Pack)",E,Animals & Related Gear,1500
+"Saddle, Exotic (Riding)",E,Animals & Related Gear,3000
+Saddlebags,C,Animals & Related Gear,400
+"Snake, non-poisonous (diminutive)",C,Animals & Related Gear,1
+"Snake, non-poisonous (small)",C,Animals & Related Gear,10
+"Snake, non-poisonous (tiny)",C,Animals & Related Gear,3
+"Warhorse, heavy",R,Animals & Related Gear,40000
+"Warhorse, light",R,Animals & Related Gear,15000
+Warpony,R,Animals & Related Gear,10000
+Artisan’s outfit,C,Clothing,100
+Cleric’s vestments,U,Clothing,500
+Cold weather outfit,U,Clothing,800
+Courtier’s outfit,R,Clothing,3000
+Entertainer’s outfit,U,Clothing,300
+Explorer’s outfit,R,Clothing,1000
+Monk’s outfit,C,Clothing,500
+Noble’s outfit,E,Clothing,7500
+Peasant’s outfit,C,Clothing,100
+Royal outfit,E,Clothing,20000
+Scholar’s outfit,U,Clothing,500
+Traveller's outfit,C,Clothing,100
+"Buttons, common (12)",C,Clothing,5
+"Buttons, fancy (12)",U,Clothing,30
+Ceramic Mask,U,Clothing,2000
+Cleric's Vestments,C,Clothing,500
+Cold Weather Outfit,C,Clothing,800
+Courtier's Outfit,R,Clothing,3000
+Entertainer's Outfit,U,Clothing,300
+Explorer's Outfit,U,Clothing,1000
+"Festival Costume, common",U,Clothing,500
+"Festival Costume, fancy",R,Clothing,2500
+"Gloves, cloth",C,Clothing,4
+"Gloves, fancy",R,Clothing,100
+"Gloves, light leather",C,Clothing,20
+"Hat/Headpiece, commoner's",C,Clothing,5
+"Hat/Headpiece, fancy",R,Clothing,100
+House Slippers,C,Clothing,50
+"Leather Mask, common",U,Clothing,200
+"Leather Mask, fine quality",E,Clothing,500
+Loincloth,C,Clothing,2
+Metal Face Mask,R,Clothing,5000
+"Mittens, wool",C,Clothing,8
+"Scarf, silk",U,Clothing,50
+"Scarf, wool",C,Clothing,10
+"Stockings/Socks, silk",U,Clothing,200
+"Stockings/Socks, wool",C,Clothing,8
+"Wig, common",U,Clothing,1000
+"Wig, fancy",R,Clothing,3000
+Wooden Mask,C,Clothing,500
+Bush (small),C,Commodities,20
+Cedar Chips,U,Commodities,1
+Cocoa Beans,R,Commodities,300
+Coffee Beans,U,Commodities,200
+Cork Wood,U,Commodities,10
+"Corn, feed quality",C,Commodities,10
+"Decorative Plant, common",C,Commodities,2
+"Decorative Plant, fancy",R,Commodities,10
+"Decorative Plant, rare/exotic",E,Commodities,200
+"Dried Herbs, common",C,Commodities,2
+"Dried Herbs, rare/import",R,Commodities,100
+"Dried Herbs, uncommon",U,Commodities,10
+"Essential Oils, vial",U,Commodities,200
+Firewood (per day),C,Commodities,1
+Glass Beads (24),C,Commodities,10
+Grape Vine (small),C,Commodities,10
+Leather Cord (10 ft),C,Commodities,8
+Mink,R,Commodities,50
+Mongoose,R,Commodities,100
+Newts (6),C,Commodities,1
+"Nuts, common (in shell)",C,Commodities,1
+"Nuts, uncommon (in shell)",U,Commodities,10
+Peacock,E,Commodities,5
+"Pelt, common (large)",U,Commodities,2500
+"Pelt, common (medium)",C,Commodities,500
+"Pelt, common (small)",C,Commodities,50
+"Pelt, common (tiny)",C,Commodities,8
+"Pelt, fancy (small)",R,Commodities,300
+"Pelt, fancy (tiny)",R,Commodities,30
+"Pelt/Exotic Hide, fancy (large)",E,Commodities,10000
+"Pelt/Exotic Hide, fancy (medium)",R,Commodities,3000
+Rabbit,C,Commodities,1
+Seeds (50),C,Commodities,1
+Sugar Glider,E,Commodities,100
+"Tree (young, small)",U,Commodities,20
+"Turkey, domestic",C,Commodities,1
+Turtle,C,Commodities,1
+Vanilla Beans,E,Commodities,100
+Wooden Beads (24),C,Commodities,1
+Jam,C,Food & Drink,30
+Lard,C,Food & Drink,1
+"Meat, exotic/rare (chunk)",E,Food & Drink,500
+"Meat, inferior (chunk)",C,Food & Drink,5
+Molasses,U,Food & Drink,20
+"Mushrooms, edible",C,Food & Drink,5
+Pickled Meat,U,Food & Drink,80
+Pickled Vegetables,C,Food & Drink,10
+Salt/Sugar Cured Meat,U,Food & Drink,60
+Sassafras Root,C,Food & Drink,3
+Sausage,U,Food & Drink,50
+Soup/Dog Bones,C,Food & Drink,2
+Tea Biscuits,U,Food & Drink,4
+Toffee,U,Food & Drink,30
+Yeast (baker) (for 10 Lb),C,Food & Drink,2
+Yeast (brewer) (for 10 gal),C,Food & Drink,2
+Abacus,C,Luxury Items,500
+"Ash Bowl, copper/stone, common",C,Luxury Items,100
+"Ash Bowl, copper/stone, fancy",U,Luxury Items,300
+"Ash Bowl, wooden (common)",C,Luxury Items,8
+"Ash Bowl, wooden (fancy)",U,Luxury Items,30
+"Baby Cradle, wooden",U,Luxury Items,10
+"Back Scratcher, common",C,Luxury Items,3
+"Back Scratcher, fancy",U,Luxury Items,200
+Barrel (empty),C,Luxury Items,200
+Basket (empty),C,Luxury Items,40
+"Bedside Table, common",U,Luxury Items,200
+"Bedside Table, fancy",R,Luxury Items,1500
+Bell,U,Luxury Items,100
+"Birdbath, common",U,Luxury Items,1000
+"Birdbath, fancy",R,Luxury Items,3000
+Biscuit Bin,C,Luxury Items,30
+Book of Fairy Tales,R,Luxury Items,1000
+Book of General Learning,R,Luxury Items,2000
+Book of Legends,R,Luxury Items,2500
+Book of Recipes,R,Luxury Items,1500
+"Book of Songs (100), grand",R,Luxury Items,5000
+"Book of Songs (20), small",R,Luxury Items,1000
+"Book of Songs (50), large",R,Luxury Items,3000
+"Book, Diary (Blank w/ lock)",U,Luxury Items,2500
+"Book, Diary (Blank, no lock)",U,Luxury Items,300
+"Bookshelf, large",U,Luxury Items,1000
+"Bookshelf, medium",U,Luxury Items,300
+"Bookshelf, small",U,Luxury Items,100
+"Bottle (wine, glass)",U,Luxury Items,200
+"Bowl, common",C,Luxury Items,10
+"Bowl, fancy",U,Luxury Items,50
+Broom,C,Luxury Items,8
+Bucket (empty),C,Luxury Items,50
+Butter Churn,C,Luxury Items,50
+Candle,C,Luxury Items,1
+Candle Lantern,C,Luxury Items,100
+Canopy Bed,E,Luxury Items,35000
+Canvas (sq yd),C,Luxury Items,10
+Carnival Mirror (standing),E,Luxury Items,35000
+"Casket, common",C,Luxury Items,40
+"Casket, fancy",R,Luxury Items,1000
+Chain (10 ft),U,Luxury Items,3000
+Chalk (1 piece),C,Luxury Items,1
+Chamber Pot,C,Luxury Items,30
+Chest (empty),C,Luxury Items,200
+"Chest of Drawers, common",U,Luxury Items,500
+"Chest of Drawers, fancy",R,Luxury Items,5000
+"Chest of Drawers, noble",E,Luxury Items,25000
+Cider Press,C,Luxury Items,100
+Clockwork Toy,E,Luxury Items,2000
+"Cook's Table, medium",U,Luxury Items,500
+"Cook's Table, small",U,Luxury Items,100
+"Cricket Box, stone",R,Luxury Items,30
+"Cricket Box, wooden",U,Luxury Items,4
+Crowbar,U,Luxury Items,200
+"Curtains, common",C,Luxury Items,10
+"Curtains, fancy",U,Luxury Items,50
+"Curtains, grand",R,Luxury Items,300
+Dart Board,U,Luxury Items,80
+"Dice, ivory (pair)",U,Luxury Items,10
+"Dice, jade (pair)",R,Luxury Items,100
+"Dice, wooden (pair)",C,Luxury Items,1
+"Dining Chair, common",U,Luxury Items,100
+"Dining Chair, fancy",R,Luxury Items,800
+"Dining Table, common",U,Luxury Items,1000
+"Dining Table, fancy",R,Luxury Items,5000
+Dominoes (set),U,Luxury Items,10
+"Dresser (standing), common",U,Luxury Items,500
+"Dresser (standing), fancy",R,Luxury Items,2500
+Drying Towel,C,Luxury Items,10
+"Eating Utensils, common",C,Luxury Items,10
+"Eating Utensils, fancy",R,Luxury Items,100
+Fishbowl,R,Luxury Items,50
+Flower Bouquet,C,Luxury Items,10
+"Flower Pot, common",C,Luxury Items,2
+"Foot Massager, wooden",U,Luxury Items,10
+"Foot Stool, common",C,Luxury Items,10
+"Foot Stool, fancy",R,Luxury Items,100
+"Fortune Wheel, wooden",R,Luxury Items,2000
+Gaming Table,U,Luxury Items,2000
+"Garment Hook, brass",U,Luxury Items,10
+"Garment Hook, wooden",C,Luxury Items,3
+Gnomish Crank Whistle,E,Luxury Items,1000
+"Gnomish Cuckoo Clock, fancy",E,Luxury Items,200000
+"Gnomish Cuckoo Clock, royal",E,Luxury Items,300000
+Gnomish Fire Crank,E,Luxury Items,1500
+Gnomish Gear Clock,E,Luxury Items,120000
+Gnomish Heat Lantern,E,Luxury Items,2500
+"Goblet, glass",C,Luxury Items,10
+"Goblet, pewter",C,Luxury Items,30
+Hair Brush,C,Luxury Items,8
+Hair Comb,C,Luxury Items,2
+Hearth Tools,C,Luxury Items,500
+"Hide Blanket, common",C,Luxury Items,300
+"Hide Blanket, fancy",R,Luxury Items,2000
+Hourglass (1 day),R,Luxury Items,500
+Hourglass (1 hour),R,Luxury Items,100
+Iron Bed,R,Luxury Items,20000
+"Jug, clay",C,Luxury Items,3
+"Kaleidoscope, carnival",E,Luxury Items,20000
+"Kaleidoscope, common",U,Luxury Items,2000
+"Kaleidoscope, fancy",R,Luxury Items,8000
+Lamp (common),C,Luxury Items,10
+"Leather Ball, straw stuffed",U,Luxury Items,50
+Lip Wax,C,Luxury Items,5
+Lock (Amazing),E,Luxury Items,15000
+Lock (Average),U,Luxury Items,4000
+Lock (Good),R,Luxury Items,8000
+Lock (Very Simple),C,Luxury Items,2000
+"Mahjong Tiles, set",R,Luxury Items,500
+"Master's Chair, common",U,Luxury Items,2000
+"Master's Chair, fancy",R,Luxury Items,10000
+"Mat, Feather",C,Luxury Items,30
+"Mat, Straw",C,Luxury Items,10
+Maze Board (w/ marble),R,Luxury Items,50
+"Merchant's Table, foldable",U,Luxury Items,500
+Mirror (small steel),U,Luxury Items,1000
+"Moon Calendar, stone",E,Luxury Items,1500
+"Moon Calendar, wooden",R,Luxury Items,100
+Mop,C,Luxury Items,20
+Mouse Trap,C,Luxury Items,5
+Mug/Tankard (clay),C,Luxury Items,2
+"Mug/Tankard, pewter",C,Luxury Items,100
+"Nutcracker, fancy",R,Luxury Items,200
+"Nutcracker, ordinary",C,Luxury Items,10
+"Padded Chair, common",R,Luxury Items,800
+"Padded Chair, fancy",E,Luxury Items,2500
+"Perfume, Common (vial)",U,Luxury Items,20
+"Perfume, Exotic (vial)",E,Luxury Items,2000
+"Perfume, Fancy (vial)",R,Luxury Items,100
+"Picture frame, wooden (Large)",R,Luxury Items,1000
+"Picture frame, wooden (Medium)",U,Luxury Items,100
+"Picture frame, wooden (Small)",C,Luxury Items,10
+"Picture frame, wooden (Tiny)",C,Luxury Items,3
+"Pillow, common",C,Luxury Items,10
+"Pillow, fancy",R,Luxury Items,100
+"Pillow, mugwort",U,Luxury Items,30
+Pitcher (clay),C,Luxury Items,2
+"Plate Cabinet (standing), common",U,Luxury Items,1000
+"Plate Cabinet (standing), fancy",R,Luxury Items,5000
+Plates (Common) set of 4,C,Luxury Items,40
+Plates (Fancy) set of 4,R,Luxury Items,200
+Pot (iron),C,Luxury Items,50
+Potato Bin,C,Luxury Items,50
+Pumice,C,Luxury Items,10
+Rabbit's Foot,C,Luxury Items,5
+Rat Trap,C,Luxury Items,10
+Ring Toss Set,U,Luxury Items,20
+"Rope, silk (50 ft)",U,Luxury Items,1000
+Roundabout,R,Luxury Items,3000
+Scholar's Bed,R,Luxury Items,4000
+Sealing Wax,C,Luxury Items,100
+"Serving Bowl, common",C,Luxury Items,30
+"Serving Bowl, fancy",R,Luxury Items,100
+"Serving Tray, copper",R,Luxury Items,500
+"Serving Tray, silver",R,Luxury Items,1000
+"Serving Tray, wooden",C,Luxury Items,20
+Shadow Lantern,R,Luxury Items,2500
+Signet Ring,R,Luxury Items,500
+"Smoking Pipe, clay",C,Luxury Items,2
+"Smoking Pipe, common",C,Luxury Items,10
+"Smoking Pipe, fancy",R,Luxury Items,300
+Soap (per Lb),C,Luxury Items,50
+Spectacles,R,Luxury Items,80000
+"Spectacles, tinted",R,Luxury Items,85000
+Standing Mirror,R,Luxury Items,30000
+"Stool, wooden (medium)",C,Luxury Items,50
+"Stool, wooden (small)",C,Luxury Items,20
+Sundial,U,Luxury Items,1000
+"Tablecloth, common",C,Luxury Items,20
+"Tablecloth, fancy",R,Luxury Items,100
+Tavern Table,U,Luxury Items,500
+Tea Service Set,R,Luxury Items,1500
+Tombstone,U,Luxury Items,30
+"Toy Doll, common",C,Luxury Items,3
+"Toy Doll, fancy",R,Luxury Items,50
+"Vanity Mirror, steel",R,Luxury Items,5000
+"Vanity Table (w/ mirror), common",U,Luxury Items,50000
+"Vanity Table (w/ mirror), fancy",R,Luxury Items,80000
+"Vanity Table (w/ mirror), royal",E,Luxury Items,150000
+"Vase, common",C,Luxury Items,5
+"Wash Basin, copper",R,Luxury Items,15000
+"Wash Basin, wooden",C,Luxury Items,400
+Waste Bin (10 gallon),C,Luxury Items,10
+Waste Bin (5 gallon),C,Luxury Items,4
+Waste Bin (50 gallon),U,Luxury Items,30
+"Wooden Sign, medium",U,Luxury Items,500
+"Wooden Sign, small",U,Luxury Items,100
+"Wooden Toy, common",C,Luxury Items,5
+"Wooden Toy, fancy",R,Luxury Items,30
+Writing Quills (6),U,Luxury Items,2
+"Yarn, Ball (500 ft)",C,Luxury Items,30
+Fife (common),U,Musical Instrument,500
+Fife (masterwork),R,Musical Instrument,10000
+Hurdy Gurdy (common),R,Musical Instrument,500
+Hurdy Gurdy (masterwork),E,Musical Instrument,10000
+Lute (common),U,Musical Instrument,500
+Lute (masterwork),R,Musical Instrument,10000
+Mandolin (common),U,Musical Instrument,500
+Mandolin (masterwork),R,Musical Instrument,10000
+Music Box (common),R,Musical Instrument,1500
+Music Box (masterwork),E,Musical Instrument,30000
+Organ Box (common),U,Musical Instrument,300
+Organ Box (fancy),R,Musical Instrument,800
+Organ Box (masterwork),E,Musical Instrument,20000
+Recorder (common),U,Musical Instrument,500
+Recorder (masterwork),R,Musical Instrument,10000
+Acid (flask),U,Special Substances & Items,1000
+Alchemist's Fire (flask),U,Special Substances & Items,2000
+Antitoxin,R,Special Substances & Items,5000
+Everburning Torch,E,Special Substances & Items,11000
+Holy Water (flask),C,Special Substances & Items,2500
+Smokestick,U,Special Substances & Items,2000
+Sunrod,U,Special Substances & Items,200
+Tanglefoot Bag,R,Special Substances & Items,5000
+Thunderstone,U,Special Substances & Items,3000
+Tindertwig,U,Special Substances & Items,1000
+Alchemist's Lab,E,Tools & Skill Kits,50000
+Artisan Scissors,C,Tools & Skill Kits,100
+Artisan's Tools,C,Tools & Skill Kits,500
+"Artisan's Tools, Masterwork",U,Tools & Skill Kits,5500
+Barber's Kit,U,Tools & Skill Kits,1000
+Beekeeper's Hive,R,Tools & Skill Kits,200
+Beekeeper's Suit,R,Tools & Skill Kits,1000
+Blood Letter's Leeches (flask of 12 live),U,Tools & Skill Kits,20
+"Book, blank, normal",U,Tools & Skill Kits,300
+"Book, blank, poet's",R,Tools & Skill Kits,200
+"Book, blank, small",U,Tools & Skill Kits,200
+"Book, Recipe (blank)",U,Tools & Skill Kits,400
+"Book, Song (blank), grand",U,Tools & Skill Kits,1200
+"Book, Song (blank), large",U,Tools & Skill Kits,800
+"Book, Song (blank), small",U,Tools & Skill Kits,400
+"Bookmark, common",U,Tools & Skill Kits,1
+"Bookmark, fancy",U,Tools & Skill Kits,10
+Chimney Brush Kit,C,Tools & Skill Kits,80
+Climber's Kit,R,Tools & Skill Kits,8000
+"Cloth Dye (10yd), common",C,Tools & Skill Kits,50
+"Cloth Dye (10yd), fancy",R,Tools & Skill Kits,500
+Cook's Knives (set),C,Tools & Skill Kits,800
+Cookie Cutter,C,Tools & Skill Kits,5
+Cooking Utensils (set),C,Tools & Skill Kits,50
+Cosmetics/Theater Makeup Kit,R,Tools & Skill Kits,1000
+Crab Trap,C,Tools & Skill Kits,10
+Craftsman's Paint (5 gal),C,Tools & Skill Kits,500
+Disguise Kit,U,Tools & Skill Kits,5000
+"Eye Patch, common",C,Tools & Skill Kits,2
+"Eye Patch, fancy",U,Tools & Skill Kits,10
+Farmer's Tools,C,Tools & Skill Kits,100
+"Gem Eye, common",R,Tools & Skill Kits,1500
+"Gem Eye, fancy",E,Tools & Skill Kits,5000
+"Glass Eye, common",C,Tools & Skill Kits,5
+"Glass Eye, fancy",U,Tools & Skill Kits,50
+Glass Orb,U,Tools & Skill Kits,100
+"Glue, Artisan (gallon)",C,Tools & Skill Kits,200
+Gnomish Cutting Shears,E,Tools & Skill Kits,8000
+Healer's Kit,C,Tools & Skill Kits,5000
+Holy Symbol (Silver),R,Tools & Skill Kits,2500
+Holy Symbol (Wooden),C,Tools & Skill Kits,100
+Hourglass,R,Tools & Skill Kits,2500
+Ink (1 oz vial),R,Tools & Skill Kits,800
+Ink Pen,R,Tools & Skill Kits,10
+"Juggler's Balls, wooden",C,Tools & Skill Kits,80
+Lumber Axe,C,Tools & Skill Kits,600
+Lumber Saw,C,Tools & Skill Kits,600
+Magnifying Glass,R,Tools & Skill Kits,10000
+Meat Grinder,C,Tools & Skill Kits,200
+"Meat Grinder, Gnomish",E,Tools & Skill Kits,1500
+Musical Instrument (common),C,Tools & Skill Kits,500
+Musical Instrument (masterwork),R,Tools & Skill Kits,10000
+Nails (100),C,Tools & Skill Kits,50
+Paper (sheet),R,Tools & Skill Kits,40
+Parchment (sheet),U,Tools & Skill Kits,20
+"Peg Leg, wooden",U,Tools & Skill Kits,70
+Pepper Mill,U,Tools & Skill Kits,500
+"Pick, miner's",U,Tools & Skill Kits,300
+Plow,C,Tools & Skill Kits,3000
+Portable Coop,U,Tools & Skill Kits,30
+Puppet Box,U,Tools & Skill Kits,500
+"Puppet, common",U,Tools & Skill Kits,10
+"Puppet, fancy",E,Tools & Skill Kits,200
+"Scale, merchant's",C,Tools & Skill Kits,200
+Sewing Needle,C,Tools & Skill Kits,50
+Signal Whistle,C,Tools & Skill Kits,80
+Soup Pot,C,Tools & Skill Kits,1000
+Spade or Shovel,C,Tools & Skill Kits,200
+Spell Component Pouch,U,Tools & Skill Kits,500
+"Spellbook, Wizard's (Blank)",U,Tools & Skill Kits,1500
+Spindle,C,Tools & Skill Kits,4
+Spinning Wheel,C,Tools & Skill Kits,1000
+Spyglass,E,Tools & Skill Kits,100000
+Tacks (100),C,Tools & Skill Kits,20
+"Teeth (human, demihuman) per tooth",R,Tools & Skill Kits,80
+Teeth (humanoid) per tooth,R,Tools & Skill Kits,10
+Thieves' Tools,R,Tools & Skill Kits,3000
+"Thieves' Tools, Masterwork",E,Tools & Skill Kits,10000
+Thread,C,Tools & Skill Kits,5
+"Tool, Masterwork",R,Tools & Skill Kits,5000
+"Vial, ink or potion (empty)",C,Tools & Skill Kits,100
+Water Clock,E,Tools & Skill Kits,100000
+Wheelbarrow,C,Tools & Skill Kits,300
+Wiping Rug,C,Tools & Skill Kits,10
+Wood Stain (5 sq ft),U,Tools & Skill Kits,300
+Writing Board,U,Tools & Skill Kits,10
+"Cage Wagon, common",U,Transport,45000
+"Cage Wagon, grand",R,Transport,80000
+"Caravan Wagon, common",U,Transport,75000
+"Caravan Wagon, fancy",E,Transport,125000
+Carriage,U,Transport,10000
+Cart,C,Transport,1500
+Covered Cart,C,Transport,2000
+Galley,R,Transport,3000000
+Keelboat,U,Transport,300000
+Longship,R,Transport,1000000
+Oar,C,Transport,200
+"Performer's Cart, common",U,Transport,50000
+"Performer's Cart, fancy",E,Transport,80000
+Rowboat,C,Transport,5000
+Sailing Ship,R,Transport,1000000
+Sideshow Cart,R,Transport,65000
+Sled,C,Transport,2000
+"Sled, covered",U,Transport,5000
+Tent Wagon,C,Transport,8500
+Wagon,C,Transport,3500
+Warship,L,Transport,2500000
+Yoke (and accessories),C,Transport,200
