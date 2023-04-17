@@ -42,31 +42,33 @@ def funds():
             gold=int(input("Gold coins: "))
             electrum=int(input("Electrum coins: "))
             silver=int(input("Silver coins: ")) 
-            copper=int(input("Copper coins: "))   
+            copper=int(input("Copper coins: "))
             total=(platinum*10)+gold+(electrum/2)+(silver/10)+(copper/100)
-            if input(f"\n{total}gp\nIs this correct? y/n")=="y":
+            if input(f"\n{total}gp\nIs this correct? y/n ")=="y":
                 gold_pouch=total
                 return
         except (ValueError, IndexError):
             print("Invalid input. Please choose a valid option.")        
 
 def choose_size():
+    print("")
     for i, v in enumerate(settlement_sizes):
-        print(i, v)
+        print(i+1, v)
     while True:
         try:
-            choose = int(input("Choose the settlement's size: "))
+            choose = int(input("\nChoose the settlement's size: "))-1
             settlement_size = list(settlement_sizes.values())[choose]
             return settlement_size
         except (ValueError, IndexError):
             print("Invalid input. Please choose a valid option.")
 
 def choose_wealth():
+    print("")
     for i , v in enumerate(settlement_wealths):
-        print(i , v)
+        print(i+1 , v)
     while True:
         try:
-            choose = int(input("Choose the settlement's wealth: "))
+            choose = int(input("\nChoose the settlement's wealth: "))-1
             settlement_wealth = list(settlement_wealths.values())[choose]
             price_low= list(settlement_pricelow.values())[choose] 
             price_high= list(settlement_pricehigh.values())[choose]
@@ -101,51 +103,58 @@ def choose_shop():
     for t in inventory["type"].unique():
         if (inventory["type"] == t).any() and (inventory[inventory["type"] == t]["Stock"] > 0).any():
             unique_types.append(t)
+    print("")
     for i, t in enumerate(unique_types):
         print(f"{i+1}. {t}")
     while True:
         try:
-            selected_type = unique_types[int(input("Select a type: ")) - 1]
+            selected_type = unique_types[int(input("\nSelect a type: ")) - 1]
             selected_shop = inventory[(inventory["type"] == selected_type)&(inventory["Stock"]>0)]
             print(selected_shop[["item", "Stock", "Cost"]])
             break
         except (ValueError, IndexError):
             print("Invalid input. Please choose a valid option.")       
-    if input("Print shopping cart? y/n ") == "y":
-        print(shopping_cart)
+    if input("\nPrint shopping cart? y/n ") == "y":
+        for i, item in enumerate(shopping_cart):
+            print(f"{i+1}: {item} - {shopping_cart[item]['quantity']} - {shopping_cart[item]['Cost']}(gp)")
 
 def buy_prompt():
     global shopping_cart
     global gold_pouch
     while True:
         try:
-            choose=input("Buy? y/n or (r)emove ")
+            choose=input("\nBuy? y/n or (r)emove ")
             if  choose== "y":
                 print(f"Budget: {gold_pouch:.2f}")
-                item_index, quantity = input("input index and quantity: ").split()
-                selected_item = inventory.at[int(item_index), "item"]
+                item_index, quantity = input("\ninput index and quantity: ").split()
+                selected_item = inventory.loc[int(item_index)]
                 selected_quantity = int(quantity)
-                selected_price = selected_quantity * inventory.at[selected_item.name, 'Cost']
-                print(f"Selected item: {selected_item}")
+                selected_price = selected_quantity * selected_item['Cost']
+                print(f"Selected item: {selected_item['item']}")
                 print(f"Quantity: {selected_quantity}")
                 print(f"Price: {selected_price:.2f}")
                 print(f"Budget: {gold_pouch:.2f}")
-                if input("Are you sure? y/n ") == "y":
+                if input("\nAre you sure? y/n ") == "y":
                     buy_item(selected_item, selected_quantity, selected_price)
             elif choose== "r":
                 remove_item()            
             elif choose=="n":
-                print(shopping_cart)
+                print("Shopping cart:")
+                for i, item in enumerate(shopping_cart):
+                    print(f"{i+1}: {item} - {shopping_cart[item]['quantity']} - {shopping_cart[item]['Cost']}(gp)")
                 print(f"Budget: {gold_pouch:.2f}")
                 while True:
-                    answer = input("Continue shopping? y/n ")
+                    answer = input("\nContinue shopping? y/n ")
                     if answer == "y":
                         choose_shop()
                         break
                     elif answer == "n":
-                        print(shopping_cart)
-                        print(f"Remaining funds: {gold_pouch:.2f}")
-                        exit()
+                        print("Shopping cart:")
+                        for i, item in enumerate(shopping_cart):
+                            print(f"{i+1}: {item} - {shopping_cart[item]['quantity']} - {shopping_cart[item]['Cost']}(gp)")
+                        print(f"Budget: {gold_pouch:.2f}")
+                        input("\nPress Any Key\n")
+                        shopgen()
                     else:
                         print("Invalid input. Please choose a valid option.")
                         continue
@@ -161,7 +170,7 @@ def buy_item(selected_item, selected_quantity, selected_price):
     global gold_pouch
     if selected_quantity <= selected_item["Stock"]:
         if gold_pouch - float(round(selected_price, 2)) < 0:
-            print("Purchase cancelled. Insufficient gold.")
+            print("\nPurchase cancelled. Insufficient gold.")
             print(f"Gold in pouch: {gold_pouch:.2f}")
             return
         if selected_item["item"] in shopping_cart:
@@ -171,22 +180,22 @@ def buy_item(selected_item, selected_quantity, selected_price):
             shopping_cart[selected_item["item"]] = {"quantity": selected_quantity, "Cost": selected_price}
         inventory.at[selected_item.name, "Stock"] -= selected_quantity
         gold_pouch -= float(round(selected_price, 2))
-        print(f"Bought {selected_quantity} {selected_item['item']} for {selected_price:.2f} gold.")
+        print(f"\nBought {selected_quantity} {selected_item['item']} for {selected_price:.2f} gold.")
     else:
-        print(f"Insufficient stock for {selected_item['item']}.")
+        print(f"\nInsufficient stock for {selected_item['item']}.")
 
 def remove_item():
     global shopping_cart
     global gold_pouch
-    print("Items in shopping cart:")
+    print("\nItems in shopping cart:")
     for i, item in enumerate(shopping_cart):
-        print(f"{i}: {item} - {shopping_cart[item]['quantity']} - {shopping_cart[item]['Cost']}(gp)")
+        print(f"{i+1}: {item} - {shopping_cart[item]['quantity']} - {shopping_cart[item]['Cost']}(gp)")
     while True:
         try:
-            item_index = int(input("Select item to remove: "))
+            item_index = int(input("\nSelect item to remove: "))
             item = list(shopping_cart.keys())[item_index]
             item_quantity = shopping_cart[item]['quantity']
-            quantity = int(input(f"Select quantity to remove (max {item_quantity}): "))
+            quantity = int(input(f"\nSelect quantity to remove (max {item_quantity}): "))
             if quantity <= 0:
                 raise ValueError
             elif quantity > item_quantity:
@@ -203,19 +212,21 @@ def remove_item():
             break
         except (ValueError, IndexError):
             print("Invalid input. Please choose a valid option.")
-    print("Updated shopping cart:")
-    print(shopping_cart)
+    print("\nUpdated shopping cart:")
+    for i, item in enumerate(shopping_cart):
+        print(f"{i+1}: {item} - {shopping_cart[item]['quantity']} - {shopping_cart[item]['Cost']}(gp)")
     print(f"Gold pouch: {gold_pouch:.2f}")
     buy_prompt()
-
-title()
-funds()
-settlement_size=choose_size()
-settlement_wealth, price_low, price_high=choose_wealth()
-dice()
-price_dice(price_low, price_high)
-inventory['base stock'] = inventory.apply(lambda row: calculate_stock(settlement_size, settlement_wealth, row['rarity']), axis=1)
-inventory["Stock"]=(inventory["base stock"]*inventory["dice roll"]).apply(lambda x: math.floor(x))
-inventory["Cost"]=round((inventory["price"]/100)*inventory["price dice"],2)
-choose_shop()
-buy_prompt()
+def shopgen():
+    title()
+    funds()
+    settlement_size=choose_size()
+    settlement_wealth, price_low, price_high=choose_wealth()
+    dice()
+    price_dice(price_low, price_high)
+    inventory['base stock'] = inventory.apply(lambda row: calculate_stock(settlement_size, settlement_wealth, row['rarity']), axis=1)
+    inventory["Stock"]=(inventory["base stock"]*inventory["dice roll"]).apply(lambda x: math.floor(x))
+    inventory["Cost"]=round((inventory["price"]/100)*inventory["price dice"],2)
+    choose_shop()
+    buy_prompt()
+shopgen()
